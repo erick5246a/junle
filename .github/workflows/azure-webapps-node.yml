@@ -1,28 +1,32 @@
 <!DOCTYPE html>
 <html lang="zh">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>君乐民宿 - 豪华海滨别墅租赁</title>
-    <meta name="description" content="君乐民宿提供高端豪华的海滨别墅租赁服务，让您的假期尽享宁静与奢华。">
-    <meta name="keywords" content="豪华别墅, 海滨别墅, 度假, 租赁, 君乐民宿, 海南">
     <style>
-        /* 全局样式 */
-      
-        html { scroll-behavior: smooth; }
-        body { font-family: Arial, sans-serif; background-color: #f5f5f5; }
-
-        /* 头部 */
-        header {
-            background: url('images/hero.jpg') no-repeat center center/cover;
-            color: white;
-            text-align: center;
-            padding: 60px 20px;
+        /* 通用重置样式 */
+        html, body {
+            margin:0
+            padding:0
+            font-family::rial, sans-serif;
+            background-color:#f5f5f5;
+            box-sizing:border-box;
         }
-        header h1 { font-size: 2.5em; }
-        header p { font-size: 1.2em; margin-bottom: 15px; }
-        
-        /* 导航栏 */
+
+        /* 强制所有元素采用 border-box 模型 */
+        * {
+            box-sizing:inherit;
+        }
+
+        header {
+            background: url('hero.jpg') no-repeat center center/cover;
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
         nav {
             display: flex;
             justify-content: center;
@@ -30,77 +34,59 @@
             padding: 15px;
             position: sticky;
             top: 0;
-            z-index: 1000;
         }
+
         nav a {
             color: white;
             text-decoration: none;
             margin: 0 15px;
             padding: 10px 15px;
-            transition: background 0.3s ease;
-        }
-        nav a:hover {
-            background: rgba(255, 255, 255, 0.2);
-            border-radius: 5px;
         }
 
-        /* 主要内容 */
         .container {
-            max-width: 90%;
+            max-width: 1200px;
             margin: auto;
             padding: 20px;
         }
+
         .section {
             background: white;
             padding: 20px;
             margin-bottom: 20px;
             border-radius: 10px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
-        .section h2 { margin-bottom: 10px; }
 
-        /* 图片样式 */
         .image {
             width: 100%;
             border-radius: 10px;
-            display: block;
-            margin: auto;
         }
 
-        /* 按钮样式 */
         .btn {
             display: inline-block;
-            padding: 12px 20px;
-            background: #005f99;
+            padding: 10px 20px;
+            background: #0077b6;
             color: white;
             text-decoration: none;
             border-radius: 5px;
-            transition: background 0.3s ease;
-            font-size: 1.1em;
-        }
-        .btn:hover {
-            background: #004b80;
         }
 
-        /* 页脚 */
         footer {
             text-align: center;
             padding: 15px;
-            background: #005f99;
+            background: #0077b6;
             color: white;
         }
     </style>
 </head>
+
 <body>
 
-    <!-- 头部 -->
     <header>
         <h1>君乐民宿</h1>
         <p>豪华海滨别墅 · 享受极致度假体验</p>
         <a href="#booking" class="btn">立即预订</a>
     </header>
 
-    <!-- 导航栏 -->
     <nav>
         <a href="#about">关于我们</a>
         <a href="#villas">别墅一览</a>
@@ -108,7 +94,6 @@
         <a href="#contact">联系我们</a>
     </nav>
 
-    <!-- 主要内容 -->
     <div class="container">
         <div id="about" class="section">
             <h2>关于我们</h2>
@@ -117,28 +102,28 @@
 
         <div id="villas" class="section">
             <h2>别墅一览</h2>
-            <img src="images/villa.jpg" alt="豪华别墅" class="image">
+            <img src="villa.jpg" alt="豪华别墅" class="image">
             <p>精选不同房型的豪华别墅，配备现代化设施，让您享受舒适度假体验。</p>
         </div>
 
         <div id="experience" class="section">
             <h2>度假体验</h2>
-            <img src="images/spa.jpg" alt="水疗体验" class="image">
+            <img src="spa.jpg" alt="水疗体验" class="image">
             <p>我们提供多种度假活动，包括水疗、海钓、私人厨师服务等，满足您的高端需求。</p>
         </div>
 
         <div id="contact" class="section">
             <h2>联系我们</h2>
-            <p>📞 电话：+86 123-456-7890</p>
-            <p>💬 微信：junleresort</p>
-            <p>📍 地址：海南省临高县碧桂园金沙滩</p>
+            <p>电话：+86 123-456-7890</p>
+            <p>微信：junleresort</p>
+            <p>地址：海南省临高县碧桂园金沙滩</p>
         </div>
     </div>
 
-    <!-- 页脚 -->
     <footer>
         <p>&copy; 2025 君乐民宿. 版权所有.</p>
     </footer>
 
 </body>
+
 </html>
