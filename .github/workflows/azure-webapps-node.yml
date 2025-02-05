@@ -8,7 +8,7 @@
     <meta name="keywords" content="豪华别墅, 海滨别墅, 度假, 租赁, 君乐民宿, 海南">
     <style>
         /* 全局样式 */
-        * { margin: 0; padding: 0; box-sizing: border-box; }
+      
         html { scroll-behavior: smooth; }
         body { font-family: Arial, sans-serif; background-color: #f5f5f5; }
 
