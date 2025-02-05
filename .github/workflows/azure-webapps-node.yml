@@ -21,61 +21,61 @@
         }
 
         header {
-            background: url('hero.jpg') no-repeat center center/cover;
-            color: white;
-            padding: 60px 20px;
-            text-align: center;
+           background:url('https://i.pinimg.com/736x/fd/9e/f5/fd9ef5b82ca826a3cd78f22e6f530f15.jpg.jpg') no-repeat center center/cover;
+            color:white;
+            padding:60px 20px;
+            text-align:center;
         }
 
         nav {
-            display: flex;
-            justify-content: center;
-            background: rgba(0, 0, 0, 0.7);
-            padding: 15px;
-            position: sticky;
-            top: 0;
+            display:flex;
+            justify-content:center;
+            background:rgba(0, 0, 0, 0.7);
+            padding:15px;
+            position:sticky;
+            top:0;
         }
 
         nav a {
-            color: white;
-            text-decoration: none;
-            margin: 0 15px;
-            padding: 10px 15px;
+            color:white;
+            text-decoration:none;
+            margin:0 15px;
+            padding:10px 15px;
         }
 
         .container {
-            max-width: 1200px;
-            margin: auto;
-            padding: 20px;
+            max-width:1200px;
+            margin:auto;
+            padding:20px;
         }
 
         .section {
-            background: white;
-            padding: 20px;
-            margin-bottom: 20px;
-            border-radius: 10px;
+            background:white;
+            padding:20px;
+            margin-bottom:20px;
+            border-radius:10px;
         }
 
         .image {
-            width: 100%;
-            border-radius: 10px;
+            width:100%;
+            border-radius:10px;
         }
 
         .btn {
-            display: inline-block;
-            padding: 10px 20px;
-            background: #0077b6;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
+            display:inline-block;
+            padding:10px 20px;
+            background:#0077b6;
+            color:white;
+            text-decoration:none;
+            border-radius:5px;
         }
 
         footer {
-            text-align: center;
-            padding: 15px;
-            background: #0077b6;
+            text-alig:center;
+            padding:15px;
+            background:#0077b6;
             color: white;
-        }
+     }
     </style>
 </head>
 
